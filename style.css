@@ -10,7 +10,9 @@
 }
 body{
     border: 15px solid red;
+    background-image: url("./skin.jpg");
 }
+
 .line div{
     height: 185px;
     width: 12.2%;
@@ -19,7 +21,7 @@ body{
     display: inline-block;
 }
 .b{
-    background-color: black;
+    background-image: url("./brown.jpg");
 }
 ::selection{
     color: white;
