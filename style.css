@@ -2,15 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face{
+    font-family: "mast";
+    src: url("./assets/fonts/Qwitcher_Grypen/QwitcherGrypen-Regular.ttf")
+}
 #head{
     text-align: center;
-    background-color: teal;
+    background-color: white;
     font-size: 100px;
-    color: blue;
+    color: green;
+    font-family: "mast";
+    letter-spacing: 50px;
 }
 body{
     border: 15px solid red;
-    background-image: url("./skin.jpg");
+    background-image: url("./assets/images/skin.jpg");
 }
 
 .line div{
@@ -21,7 +27,7 @@ body{
     display: inline-block;
 }
 .b{
-    background-image: url("./brown.jpg");
+    background-image: url("./assets/images/brown.jpg");
 }
 ::selection{
     color: white;
